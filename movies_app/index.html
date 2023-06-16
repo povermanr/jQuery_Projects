@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movies Ranker</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=League+Spartan:wght@300&display=swap');
+</style>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <h1>Movies Ranker</h1>
+
+  <form id="moviesForm">
+    <label for="titleInput">Title:</label>
+    <input type="text" id="titleInput" required minlength="2">
+    <label for="ratingInput">Rating:</label>
+    <input type="number" id="ratingInput" required min="0" max="10">
+    <button class="button"   type="submit">Add Movie</button>
+  </form>
+
+  <div id="moviesList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

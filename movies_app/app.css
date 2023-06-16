@@ -1,0 +1,107 @@
+html {
+    background: url('https://cdn.pixabay.com/photo/2015/10/15/21/17/texture-990085_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+  }
+  
+h1 {
+    margin-top: 20px;
+    font-family: 'Carter One', cursive;
+    color: #e8e6e8;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px #9e939e;
+  }
+  
+form {
+    align-items: center;
+    color: #e8e6e8;
+} 
+
+label{
+    margin-left: 5px;
+    color: #e8e6e8;    
+    font-family: 'Carter One', cursive;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.25rem;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #0d0d0d;
+    border: none;
+  }  
+
+.button {
+    background-color: #8c1f66;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: solid whitesmoke;
+    color: #e8e6e8;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #70355b;
+}
+.remove-btn {
+    background-color: #8c1f66;
+    color: white;
+    border: solid whitesmoke;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+  
+.remove-btn:hover {
+    background-color: #70355b;
+} 
+
+.movie {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #e8e6e8;
+    font-family: 'Carter One', cursive;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+.movie .title {
+    flex-grow: 1;
+    margin-right: 10px;
+    color: #e8e6e8;
+  }
+  
+.sort {
+    margin-top: 20px;
+    color: #e8e6e8;
+    font-family: 'Carter One', cursive;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+  }
+  
+.sort select {
+    margin-right: 10px;
+    font-family: 'Carter One', cursive;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.25rem;
+}
+
+#sortBy, #sortOrder {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #0d0d0d;
+}
